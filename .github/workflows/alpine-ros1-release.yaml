@@ -11,6 +11,7 @@ jobs:
     uses: alpine-ros/alpine-ros-ci-workflows/.github/workflows/alpine-ros1-release.yaml@main
     with:
       release-ref: ${{ github.event.release.tag_name }}
+      release-repo-slug: at-wat/alpine-ros1-releases
       source-branch: master
       git-user: Atsushi Watanabe
       git-email: 8390204+at-wat@users.noreply.github.com
